@@ -184,7 +184,7 @@
     // test if any minor diagonals on this board contain conflicts
     hasAnyMinorDiagonalConflicts: function() {
       var matrix = this.rows(); 
-      for(var i = -matrix.length; i < matrix.length; i++){
+      for(var i = 0; i < matrix.length*2; i++){
         if(this.hasMinorDiagonalConflictAt(i)){
           return true;
         }

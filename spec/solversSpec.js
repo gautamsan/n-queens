@@ -20,7 +20,7 @@ describe('solvers', function() {
 
   });
 
-  describe('countNRooksSolutions()', function() {
+/*  describe('countNRooksSolutions()', function() {
 
     it('finds the number of valid solutions for n of 1-8', function() {
       _.range(1, 9).map(function(n) {
@@ -31,7 +31,7 @@ describe('solvers', function() {
       });
     });
 
-  });
+  });*/
 
   describe('findNQueensSolution()', function() {
 
